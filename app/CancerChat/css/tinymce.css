@@ -1,0 +1,12 @@
+/* 
+Document   : tinymce.css
+Created on : 03-June-2014; 10:29:00 AM
+Author     : Joy Brusich
+Description: For tinyMCE plugin - under desouza_theme
+*/
+
+body, td, pre {
+    font-size:14px;
+    font-family: arial, sans-serif;
+    color: #333333;
+}

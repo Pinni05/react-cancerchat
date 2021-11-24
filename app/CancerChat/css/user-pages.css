@@ -1,0 +1,150 @@
+.navbar {
+    border-radius: 0px;
+}  
+
+.navbar-desouza {
+    background-color: #056cb6;
+    margin-bottom: 0px;
+}
+
+.navbar-desouza a {
+    color: #ffffff;
+}
+
+.navbar-desouza .navbar-nav > li > a:hover,
+.navbar-desouza .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #428bca;
+}
+
+.navbar-desouza .caret {
+    margin-top: -0.2em;
+}
+
+.navbar-desouza .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    text-decoration: none;
+    color: #262626;
+    background-color: #f3f3f3;
+}
+
+.navbar-desouza .dropdown-menu > li > a {
+    line-height: 2.5em;
+    font-size: 110%;
+    background-color: #ffffff;
+    padding: 0px 20px;
+}
+
+.navbar-desouza .dropdown-menu > li {
+    margin-bottom: 0;
+}
+
+.dropdown {
+    margin-bottom: 0;
+}
+
+.chatgroups-index > tbody > tr > td {
+    min-width: 100px;
+}
+
+.chatgroups-index > thead > tr > th {
+    min-width: 100px;
+}
+
+.chat-group-row {
+    cursor: pointer;
+}
+
+/***** enrollment form /users/add **********/
+.other-reason-block, .reservations-block, .other-cancer-therapy-block, .other-therapy-type-block {
+    display:none;
+} 
+
+input[type=radio]+label {
+    font-weight: normal;
+    cursor:pointer;
+}
+
+.alert-danger {
+    padding-left: 0.5em;
+}
+/***** end: enrollment form /users/add **********/
+
+
+/***** enrollment form /users/enroll ************/
+input[type=checkbox] {
+    min-height: 0;
+    cursor: pointer;
+}
+
+input[type=radio] { 
+    cursor: pointer;
+    margin: 0.5em;
+    min-height: 0;
+}
+
+.form-group > fieldset > legend {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    border-bottom: 0px;
+}
+
+.alert-danger {
+    padding-left: 0.5em;
+}
+
+.optional-question {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .form-control, .form-errors, .error-list, .tags-mutable {
+    width: 50%;
+}
+}
+
+.form-group-MH14, .form-group-MH15, .form-group-PC02 {
+    margin-left: 2.5em;
+}
+/***** end: enrollment form /users/enroll ************/
+
+
+.checkbox label, .radio label {
+    padding-left: 5px;
+}
+
+.form-group > label {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.btn-default {
+    color: #056cb6;
+}
+
+.h3, h3 {
+    font-size: 24px;
+}  
+
+.dropdown-menu .divider {
+    border-bottom: 1px solid #0a4;
+}
+
+.user-profile-view > dd {
+    padding-top: 0.5em;
+}
+
+.user-profile-view > dt {
+    padding-top: 0.5em;
+}
+
+.avatar-gallery{
+    display: inline-block;
+}
+.avatar-image {
+    cursor: pointer;
+    height: 50;
+    width: 50;
+    display:inline;
+    position: relative;
+}

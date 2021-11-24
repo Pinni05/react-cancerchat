@@ -1,0 +1,63 @@
+/**
+ * Cancer Chat - de Souza Institute 2015
+ * 
+ * ie8.css
+ * 
+ * Fixes / hacks to make the site usable (if not pleasant) in Internet Explorer 8 (Win 7+)
+ */
+
+.headerBlock-container {
+    padding: 1em;
+}
+
+.headerBlock-quick,
+.headerBlock-quick .quickButtons,
+.headerBlock-nav,
+.slogan {
+    display: block;
+    max-width: auto;
+    position: static;
+}
+
+.headerBlock-quick .quickButtons {
+    text-align: right;
+}
+
+.headerBlock-quick .socialMedia {
+    display: none !important;
+}
+
+.logo-cc {
+    margin-top: 1em;
+}
+
+.splash-inner {
+    margin-top: 2em;
+}
+
+.sidebar {
+    padding: 2em;
+}
+
+.content-inner {
+    padding: 2em;
+}
+
+.testimonyBox-text {
+    width: 660px;
+}
+@media (max-width: 1199px) {
+    .testimonyBox-text {
+        width: 516px;
+    }
+}
+@media (max-width: 991px) {
+    .testimonyBox-img {
+        float: none !important;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .testimonyBox-text {
+        width: 100%;
+    }
+}
